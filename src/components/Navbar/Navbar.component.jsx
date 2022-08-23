@@ -53,7 +53,7 @@ const NavBarComponent = () => {
 				<div>
                   
 					<div
-						className={`flex-1   text-center pb-3 mt-8 md:block md:mr-64 md:pb-0 md:mt-0 ${
+						className={`flex-1 font-size-20  text-center pb-3 mt-8 md:block md:mr-64 md:pb-0 md:mt-0 ${
 							navbar ? "block   " : "hidden"
 						}`}
 					>
