@@ -1,11 +1,17 @@
+
+import  React from 'react';
 import { useState } from "react";
+import {FaGithub}  from "react-icons/fa";
+import { FaTwitter } from "react-icons/fa";
+
+
 
 // the initial state the control the gel
 const NavBarComponent = () => {
 	const [navbar, setNavbar] = useState(false);
 
 	return (
-		<nav className="w-full bg-Navbar_bg   color-white  shadow">
+		<nav className="w-full bg-G_Purple     shadow">
 			<div className="justify-between px-4 mx-auto lg:max-w-7xl md:items-center md:flex md:px-8 font">
 				<div>
 					<div className="flex items-center justify-between py-3 md:py-5 md:block">
@@ -14,7 +20,7 @@ const NavBarComponent = () => {
 						</a>
 						<div className="md:hidden">
 							<button
-								className="p-2 text-gray-700 rounded-md outline-none focus:border-gray-400 focus:border"
+								className="p-2 text-white rounded-md outline-none focus:border-gray-400 focus:border"
 								onClick={() => setNavbar(!navbar)}
 							>
 								{navbar ? (
@@ -51,25 +57,31 @@ const NavBarComponent = () => {
 					</div>
 				</div>
 				<div>
-                  
 					<div
-						className={`flex-1 font-size-20  text-center pb-3 mt-8 md:block md:mr-64 md:pb-0 md:mt-0 ${
+						className={`flex-1  text-lg   text-center pb-3 mt-8 md:block md: md:pb-0 md:mt-0 ${
 							navbar ? "block   " : "hidden"
 						}`}
 					>
-						<ul className="items-center   justify-center space-y-8 md:flex md:space-x-6 md:space-y-0 text-base md:divide-y-0">
-							<li className="text-white divide-y divide-y-reverse  hover:text-blue-600">
+						<ul className="items-center  text-lg  justify-center space-y-8 md:flex md:space-x-6 md:space-y-0  md:divide-y-0">
+							<li className="text-white  hover:text-Navbar_text_color">
 								<a href="javascript:void(0)"> Home </a>
 							</li>
-							<li className="text-white   hover:text-blue-600">
+							<li className="text-white    hover:text-Navbar_text_color">
 								<a href="javascript:void(0)"> Programming</a>
 							</li>
-							<li className="text-white   hover:text-blue-600">
+							<li className="text-white   hover:text-Navbar_text_color">
 								<a href="javascript:void(0)"> Student </a>
 							</li>
-							<li className="text-white hover:text-blue-600">
+							<li className="text-white  hover:text-Navbar_text_color">
 								<a href="javascript:void(0)"> Marketing </a>
 							</li>
+							<div>
+								{/* this is contact Section */}
+								<ul className=" hidden mt-5 mr-4 ml-0  md:ml-10   text-center  md:flex justify-end  md:mt-0   md:space-x-6 md:space-y-0">
+									<li className="text-white  hover:text-Navbar_text_color">   <FaGithub/> </li>
+									<li className=" text-white  hover:text-Navbar_text_color"> <FaTwitter/> </li>
+								</ul>
+							</div>
 						</ul>
 					</div>
 				</div>
