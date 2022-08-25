@@ -3,7 +3,7 @@ import React from 'react'
 import Monochroomatic from '../.././IMAGES/SEO_Monochromatic.svg'
 
 
-const  Introduction=() => {
+function Introduction() {
   return (
 		<div id="Introduction" className="Introduction text-center">
 			<div>
