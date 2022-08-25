@@ -1,15 +1,28 @@
 
 import React from 'react';
 import './App.css';
+import { Routes, Route } from "react-router-dom";
+import { BrowserRouter } from "react-router-dom";
+import HomePagesCards from './components/Cards/HomePagesCards';
 import Introduction from './components/Introduction/Introduction.component';
 import NavBarComponent from './components/Navbar/Navbar.component';
+import Programing from './Pages/Programing/Programing';
+import Student from './Pages/Student/Student';
+import Marketing from './Pages/Markeeting/Marketing';
 
 
 function App() {
   return (
-		<div className='App'>
-			<NavBarComponent />
-			<Introduction/>
+		<div className="App">
+			<BrowserRouter>
+				<NavBarComponent />
+				<Routes>
+					<Route path="/ " element={<Introduction />} />
+					<Route path="/programing" element={<Programing />} />
+					<Route path="/Student" element={<Student />} />
+					<Route path="/Marketing" element={<Marketing />} />
+				</Routes>
+			</BrowserRouter>
 		</div>
 	);
 }

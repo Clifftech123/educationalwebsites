@@ -1,8 +1,13 @@
 
 import  React from 'react';
+import {NavLink } from "react-router-dom";
 import { useState } from "react";
 import {FaGithub}  from "react-icons/fa";
 import { FaTwitter } from "react-icons/fa";
+import HomePagesCards from '../Cards/HomePagesCards';
+
+
+
 
 
 
@@ -10,12 +15,19 @@ import { FaTwitter } from "react-icons/fa";
 const NavBarComponent = () => {
 	const [navbar, setNavbar] = useState(false);
 
+	
+	// SOCIAL IONS LIKENS
+	const Github = "https://github.com/Clifftech123";
+	const Twitter = "https://twitter.com/Clifftech_Dev";
+
+
+
 	return (
-		<nav className="w-full bg-G_Purple     shadow">
-			<div className="justify-between px-4 mx-auto lg:max-w-7xl md:items-center md:flex md:px-8 font">
+		<nav className="w-full bg-G_Purple  shadow">
+			<div className="justify-between  px-4 mx-auto lg:max-w-7xl md:items-center md:flex md:px-8 font">
 				<div>
 					<div className="flex items-center justify-between py-3 md:py-5 md:block">
-						<a href="javascript:void(0)">
+						<a href={HomePagesCards}>
 							<h2 className="text-2xl font-bold text-white">LOGO</h2>
 						</a>
 						<div className="md:hidden">
@@ -64,29 +76,42 @@ const NavBarComponent = () => {
 					>
 						<ul className="items-center  text-lg  justify-center space-y-8 md:flex md:space-x-6 md:space-y-0  md:divide-y-0">
 							<li className="text-white  hover:text-Navbar_text_color">
-								<a href="javascript:void(0)"> Home </a>
+								<NavLink to="/">Home</NavLink>{" "}
 							</li>
 							<li className="text-white    hover:text-Navbar_text_color">
-								<a href="javascript:void(0)"> Programming</a>
+								<NavLink to="/programing"> Programming </NavLink>
 							</li>
-							<li className="text-white   hover:text-Navbar_text_color">
-								<a href="javascript:void(0)"> Student </a>
+							<li className="text-white active:text-red-400   hover:text-Navbar_text_color">
+								<NavLink to="/Student"> Student </NavLink>
 							</li>
 							<li className="text-white  hover:text-Navbar_text_color">
-								<a href="javascript:void(0)"> Marketing </a>
+								<NavLink to="/Marketing"> Marketing </NavLink>
+							
 							</li>
 							<div>
-								{/* this is contact Section */}
-								<ul className=" hidden mt-5 mr-4 ml-0  md:ml-10   text-center  md:flex justify-end  md:mt-0   md:space-x-6 md:space-y-0">
-									<li className="text-white  hover:text-Navbar_text_color">   <FaGithub/> </li>
-									<li className=" text-white  hover:text-Navbar_text_color"> <FaTwitter/> </li>
+								{/* Social links it automatically hidden in the small device  */}
+								<ul className=" hidden text-2xl  mt-5 mr-4 ml-0  md:ml-10   text-center  md:flex justify-end  md:mt-0   md:space-x-6 md:space-y-0">
+									<li className="text-white  hover:text-Navbar_text_color">
+										<a href={Github} target={"_blank"} rel="noreferrer">
+											<FaGithub />
+										</a>
+									</li>
+									<li className=" text-white  hover:text-Navbar_text_color">
+										<a href={Twitter} target={"_blank"} rel="noreferrer">
+											<FaTwitter />
+										</a>
+									</li>
 								</ul>
 							</div>
 						</ul>
 					</div>
 				</div>
 			</div>
+
+			
 		</nav>
+
+		
 	);
 };
 
