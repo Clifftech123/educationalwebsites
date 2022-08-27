@@ -8,17 +8,21 @@ import Student from './Pages/Student/Student'
 import Marketing from './Pages/Markeeting/Marketing'
 
 function App() {
+	
   return (
-	<BrowserRouter>
-		<NavBarComponent />
-		<Routes>
-			<Route path="/" element={<Introduction />} />
-			<Route path="/programing" element={<Programing />} />
-			<Route path="/Student" element={<Student />} />
-			<Route path="/Marketing" element={<Marketing />} />
-		</Routes>
-	</BrowserRouter>
-  )
+		<div className='App'>
+			<BrowserRouter>
+				<NavBarComponent />
+
+				<Routes>
+					<Route path="/" element={<Introduction />} />
+					<Route path="/programing" element={<Programing />} />
+					<Route path="/Student" element={<Student />} />
+					<Route path="/Marketing" element={<Marketing />} />
+				</Routes>
+			</BrowserRouter>
+		</div>
+	);
 }
 
 export default App;

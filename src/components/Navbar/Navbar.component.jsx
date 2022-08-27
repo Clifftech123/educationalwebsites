@@ -9,22 +9,28 @@ import HomePagesCards from '../Cards/HomePagesCards';
 
 
 
-
-
 // the initial state the control the gel
 const NavBarComponent = () => {
 	const [navbar, setNavbar] = useState(false);
 
-	
+	// Active Style navItems the
+	const navLinkStyles = ({ isActive }) => {
+		return {
+			fontWeight: isActive ? "  normal" : " ",
+			textDecoration: isActive ? "underline" : " none",
+			color: isActive ? " yellow " : " whiteSmoke",
+		};
+		
+
+	};
+
 	// SOCIAL IONS LIKENS
 	const Github = "https://github.com/Clifftech123";
 	const Twitter = "https://twitter.com/Clifftech_Dev";
 
-
-
 	return (
-		<nav className="w-full bg-G_Purple  shadow">
-			<div className="justify-between  px-4 mx-auto lg:max-w-7xl md:items-center md:flex md:px-8 font">
+		<nav className=" bg-G_Purple    sticky top-0 z-30 w-full  shadow">
+			<div className="      justify-between  px-4 mx-auto lg:max-w-7xl md:items-center md:flex md:px-8 font">
 				<div>
 					<div className="flex items-center justify-between py-3 md:py-5 md:block">
 						<a href={HomePagesCards}>
@@ -74,19 +80,18 @@ const NavBarComponent = () => {
 							navbar ? "block   " : "hidden"
 						}`}
 					>
-						<ul className="items-center  text-lg  justify-center space-y-8 md:flex md:space-x-6 md:space-y-0  md:divide-y-0">
-							<li className="text-white  hover:text-Navbar_text_color">
-								<NavLink to="/">Home</NavLink>{" "}
+						<ul className="items-center   text-lg  justify-center space-y-8 md:flex md:space-x-6 md:space-y-0  md:divide-y-0">
+							<li className="text-white   hover:text-Navbar_text_color">
+								<NavLink  style={navLinkStyles} to="/">Home</NavLink>{" "}
 							</li>
 							<li className="text-white    hover:text-Navbar_text_color">
-								<NavLink to="/programing"> Programming </NavLink>
+								<NavLink style={navLinkStyles} to="/programing"> Programming </NavLink>
 							</li>
 							<li className="text-white active:text-red-400   hover:text-Navbar_text_color">
-								<NavLink to="/Student"> Student </NavLink>
+								<NavLink style={navLinkStyles} to="/Student"> Student </NavLink>
 							</li>
 							<li className="text-white  hover:text-Navbar_text_color">
-								<NavLink to="/Marketing"> Marketing </NavLink>
-							
+								<NavLink style={navLinkStyles} to="/Marketing"> Marketing </NavLink>
 							</li>
 							<div>
 								{/* Social links it automatically hidden in the small device  */}
@@ -107,11 +112,7 @@ const NavBarComponent = () => {
 					</div>
 				</div>
 			</div>
-
-			
 		</nav>
-
-		
 	);
 };
 

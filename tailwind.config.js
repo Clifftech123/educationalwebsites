@@ -2,7 +2,6 @@
 module.exports = {
 	content: ["./src/**/*.{js,jsx,ts,tsx}"],
 	theme: {
-	
 		extend: {
 			colors: {
 				Navbar_bg: "#041C32",
@@ -11,6 +10,7 @@ module.exports = {
 			},
 			fontFamily: {
 				Poppins: ["Poppins", "sans-serif"],
+				Overpass: ["Overpass", "sans - serif"]
 			},
 		},
 	},
