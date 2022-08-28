@@ -6,11 +6,12 @@ import NavBarComponent from './components/Navbar/Navbar.component'
 import Programing from './Pages/Programing/Programing'
 import Student from './Pages/Student/Student'
 import Marketing from './Pages/Markeeting/Marketing'
+import Footer from './components/Footer/Footer';
 
 function App() {
 	
   return (
-		<div className='App'>
+		<div className="App">
 			<BrowserRouter>
 				<NavBarComponent />
 
@@ -21,6 +22,9 @@ function App() {
 					<Route path="/Marketing" element={<Marketing />} />
 				</Routes>
 			</BrowserRouter>
+			<Footer/>
+			
+			
 		</div>
 	);
 }
