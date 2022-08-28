@@ -1,8 +1,10 @@
 import React from 'react'
 
-function Marketing() {
+const  Marketing =()=> {
   return (
-    <div>Marketing</div>
+   <>
+
+   </>
   )
 }
 
