@@ -29,7 +29,7 @@ const NavBarComponent = () => {
 	const Twitter = "https://twitter.com/Clifftech_Dev";
 
 	return (
-		<nav className=" bg-G_Purple    sticky top-0 z-30 w-full  shadow">
+		<nav className=" bg-G_Purple    lg:sticky top-0 z-30 w-full  shadow">
 			<div className="      justify-between  px-4 mx-auto lg:max-w-7xl md:items-center md:flex md:px-8 font">
 				<div>
 					<div className="flex items-center justify-between py-3 md:py-5 md:block">
