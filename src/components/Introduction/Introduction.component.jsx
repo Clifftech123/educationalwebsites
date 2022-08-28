@@ -9,7 +9,7 @@ function Introduction() {
 		<>
 			<div id="Introduction" className="Introduction text-center">
 				<div>
-					<div className=" bg-white shadow-sm   grid lg:grid-cols-2 2xl:grid-cols-5">
+					<div className=" bg-white shadow-sm  grid lg:grid-cols-2 2xl:grid-cols-5">
 						<div className="px-8 py-12 max-w-md mx-auto sm:max-w-xl lg:px-12 lg:py-24 lg:max-w-full xl:mr-0 2xl:col-span-2">
 							<div className="xl:max-w-lg ">
 								<img
