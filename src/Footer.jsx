@@ -1,5 +1,5 @@
 import React from 'react'
-import Developer from '../.././IMAGES/Developer-.png'
+import Developer from './IMAGES/Developer-.png'
 import { FaFacebook,  FaGithub, FaTwitter } from "react-icons/fa";
 
 const Footer =() =>   {

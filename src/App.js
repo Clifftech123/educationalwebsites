@@ -1,12 +1,12 @@
 
 import React from 'react';
 import { Routes, Route, BrowserRouter } from "react-router-dom";
-import Introduction from './components/Introduction/Introduction.component';
-import NavBarComponent from './components/Navbar/Navbar.component'
-import Programing from './Pages/Programing/Programing'
-import Student from './Pages/Student/Student'
-import Marketing from './Pages/Markeeting/Marketing'
-import Footer from './components/Footer/Footer';
+import Introduction from './HomePagesCards';
+import NavBarComponent from './Navbarcomponent'
+import Programing from './Programing'
+import Student from './Student'
+import Marketing from './Marketing'
+import Footer from './Footer';
 
 function App() {
 	

@@ -1,7 +1,7 @@
 import React from "react";
-import cardImageOne from "../../IMAGES/cardIMageOne.jpg";
-import Student from "../../IMAGES/Student (1).jpg";
-import Marketing from "../../IMAGES/Marketing.jpg";
+import cardImageOne from "./IMAGES/cardIMageOne.jpg";
+import Student from "./IMAGES/Student (1).jpg";
+import Marketing from "./IMAGES/Marketing.jpg";
 import { FaChevronDown } from "react-icons/fa";
 import { useNavigate } from "react-router-dom";
 

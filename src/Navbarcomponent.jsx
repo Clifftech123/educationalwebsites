@@ -4,7 +4,7 @@ import {NavLink } from "react-router-dom";
 import { useState } from "react";
 import {FaGithub}  from "react-icons/fa";
 import { FaTwitter } from "react-icons/fa";
-import HomePagesCards from '../Cards/HomePagesCards';
+import HomePagesCards from './HomePagesCards';
 
 
 

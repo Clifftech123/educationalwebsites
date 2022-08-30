@@ -1,7 +1,7 @@
 import React from 'react'
 
 import Monochroomatic from '../.././IMAGES/SEO_Monochromatic.svg'
-import HomePagesCards from '../Cards/HomePagesCards';
+import HomePagesCards from '../HomePagesCards';
 
 
 function Introduction() {
