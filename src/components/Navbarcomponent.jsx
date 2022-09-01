@@ -6,9 +6,6 @@ import {FaGithub}  from "react-icons/fa";
 import { FaTwitter } from "react-icons/fa";
 
 
-
-
-
 // the initial state the control the gel
 const NavBarComponent = () => {
 	const [navbar, setNavbar] = useState(false);
@@ -16,7 +13,7 @@ const NavBarComponent = () => {
 	// Active Style navItems the
 	const navLinkStyles = ({ isActive }) => {
 		return {
-			fontWeight: isActive ? "  normal" : " ",
+			fontWeight: isActive ? "  bold" : "normal ",
 			textDecoration: isActive ? "underline" : " none",
 			color: isActive ? " yellow " : " whiteSmoke",
 		};
@@ -24,9 +21,11 @@ const NavBarComponent = () => {
 
 	};
 
+	
 	// SOCIAL IONS LIKENS
 	const Github = "https://github.com/Clifftech123";
 	const Twitter = "https://twitter.com/Clifftech_Dev";
+
 
 	return (
 		<nav className=" bg-G_Purple    lg:sticky top-0 z-30 w-full  shadow">
@@ -35,6 +34,7 @@ const NavBarComponent = () => {
 					<div className="flex items-center justify-between py-3 md:py-5 md:block">
 							<h2 className="text-2xl font-bold text-white">LOGO</h2>
 					
+					{/* TOGGLE */}
 						<div className="md:hidden">
 							<button
 								className="p-2 text-white rounded-md outline-none focus:border-gray-400 focus:border"
@@ -81,18 +81,19 @@ const NavBarComponent = () => {
 					>
 						<ul className="items-center   text-lg  justify-center space-y-8 md:flex md:space-x-6 md:space-y-0  md:divide-y-0">
 							<li className="text-white   hover:text-Navbar_text_color">
-								<NavLink  style={navLinkStyles} to="/">Home</NavLink>{" "}
+								<NavLink  style={navLinkStyles} to="/">Home</NavLink>
 							</li>
 							<li className="text-white    hover:text-Navbar_text_color">
 								<NavLink style={navLinkStyles} to="/programing"> Programming </NavLink>
 							</li>
-							<li className="text-white active:text-red-400   hover:text-Navbar_text_color">
-								<NavLink style={navLinkStyles} to="/Student"> Student </NavLink>
-							</li>
 							<li className="text-white  hover:text-Navbar_text_color">
-								<NavLink style={navLinkStyles} to="/Marketing"> Marketing </NavLink>
+								<NavLink style={navLinkStyles} to="/student"> Student </NavLink>
+							</li>
+							<li className="text-white ">
+								<NavLink style={navLinkStyles} to="/marketing"> Marketing </NavLink>
 							</li>
 							<div>
+							
 								{/* Social links it automatically hidden in the small device  */}
 								<ul className=" hidden text-2xl  mt-5 mr-4 ml-0  md:ml-10   text-center  md:flex justify-end  md:mt-0   md:space-x-6 md:space-y-0">
 									<li className="text-white  hover:text-Navbar_text_color">
