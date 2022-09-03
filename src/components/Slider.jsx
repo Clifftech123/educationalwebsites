@@ -1,67 +1,61 @@
-import React, { useState,useEffect,useRef} from 'react'
-import SliderOne from './IMAGES/akson-1K8pIbIrhkQ-unsplash.jpg'
-import SliderTwo from './IMAGES/becca-tapert-GnY_mW1Q6Xc-unsplash.jpg'
-import SlidThree from './IMAGES/mimi-thian-GXEcTqlZHno-unsplash.jpg'
-import SliderFour from './IMAGES/tran-mau-tri-tam-tZnbakTUcTI-unsplash.jpg'
+import React, { useState, useEffect, useRef } from "react";
+import SliderOne from "./IMAGES/Slider1.jpg";
+import SliderTwo from "./IMAGES/Slider2.jpg";
+import SlidThree from "./IMAGES/Slider3.jpg";
+
+import SliderFive from "./IMAGES/Slider5.jpg";
 import { AiOutlineVerticalRight, AiOutlineVerticalLeft } from "react-icons/ai";
 
-
 //IMAGES
- const StudentImages = [SliderOne, SliderTwo, SlidThree, SliderFour];
+const StudentImages = [SliderOne, SliderTwo, SlidThree, SliderFive];
 
- 
 let count = 0;
 let slideInterval;
 
-const Slider =() => {
-    // IMAGE CHANGE STATE
-const  [currentIndex , SetCurrentIndex] = useState(0)
+const SliderComponent = () => {
+	// IMAGE CHANGE STATE
+	const [currentIndex, SetCurrentIndex] = useState(0);
 
-const SliderRef  = useRef()
- const removeAnimation = () => {
+	const SliderRef = useRef();
+	const removeAnimation = () => {
 		SliderRef.current.classList.remove("fade-anim");
- };
+	};
 
+	// useEffect THE CHANGE THE IMAGE AUTOMATICALLY
+	useEffect(() => {
+		Slider();
+		SliderRef.current.addEventListener("animationend", removeAnimation);
+		SliderRef.current.addEventListener("mouseenter", pauseSlider);
+		SliderRef.current.addEventListener("mouseleave", Slider);
+	}, []);
 
+	// METHOD THE CHANGE THE IMAGE On Every 6 seconds
+	const Slider = () => {
+		slideInterval = setInterval(() => {
+			handelOnNextClick();
+		}, 4000);
+	};
 
-// useEffect THE CHANGE THE IMAGE AUTOMATICALLY
-useEffect(() => {
-SliderRef.current.addEventListener("animationend", removeAnimation);
-SliderRef.current.addEventListener("mouseenter", pauseSlider);
-SliderRef.current.addEventListener("mouseleave", Slider);
-  Slider();
-
-// eslint-disable-next-line react-hooks/exhaustive-deps
-}, [0]);
-
-// METHOD THE CHANGE THE IMAGE
-const Slider =() => {
-   slideInterval = setInterval(() => {
-		handelOnNextClick();
-	}, 5000);
-};
- const pauseSlider = () => {
+	// PAUSE INTERNAL FUNCTIONS
+	const pauseSlider = () => {
 		clearInterval(slideInterval);
- };
+	};
 
-// onClick IMAGE CHANGE  IMAGE TO Next  
-const handelOnNextClick = ()=>{
-    count =(count +1) % StudentImages.length;
-    SetCurrentIndex(count)
-    SliderRef.current.classList.add('fade-anim')
-
-}
-// ON CLICK CHANGE IMAGE TO Previous
-const handelOnPrevClick = ()=>{
-    const ImageLength = StudentImages.length
-    count=(currentIndex + ImageLength -1)%ImageLength;
-    SetCurrentIndex(count)
-      SliderRef.current.classList.add("fade-anim");
-}
-  return (
+	const handelOnNextClick = () => {
+		count = (count + 1) % StudentImages.length;
+		SetCurrentIndex(count);
+		SliderRef.current.classList.add("fade-anim");
+	};
+	const handelOnPrevClick = () => {
+		const ImageLength = StudentImages.length;
+		count = (currentIndex + ImageLength - 1) % ImageLength;
+		SetCurrentIndex(count);
+		SliderRef.current.classList.add("fade-anim");
+	};
+	return (
 		<>
-			<div ref={SliderRef} className=" lg:px-8 max-w-full  mx-auto ">
-				<div className=" w-full select-none relative ">
+			<div ref={SliderRef} className=" lg:px-8 max-sm  mx-auto ">
+				<div className=" w-sm  relative  select-none ">
 					<div className="aspect-w-16 aspect-h-9">
 						<img
 							className="  object-cover  object-center"
@@ -71,17 +65,15 @@ const handelOnPrevClick = ()=>{
 					</div>
 					<div className=" absolute w-full top-1/2 transform -translate-y-1/2 px-3 flex justify-between items-center text-G_Purple">
 						<button
-							className="bg-black text-white p-1 rounded-full bg-opacity-50 cursor-pointer hover:bg-opacity-100 transition"
+							className="bg-G_Purple text-white p-1 rounded-full  cursor-pointer hover:bg-opacity-50 transition"
 							onClick={handelOnPrevClick}
 						>
-							
 							<AiOutlineVerticalRight size={35} />{" "}
 						</button>
 						<button
-							className="bg-black text-white p-1 rounded-full bg-opacity-50 cursor-pointer hover:bg-opacity-100 transition"
+							className="bg-G_Purple text-white p-1 rounded-full bg-opacity-100 cursor-pointer hover:bg-opacity-50 transition"
 							onClick={handelOnNextClick}
 						>
-							
 							<AiOutlineVerticalLeft size={35} />{" "}
 						</button>
 					</div>
@@ -89,6 +81,6 @@ const handelOnPrevClick = ()=>{
 			</div>
 		</>
 	);
-}
+};
 
-export default Slider
+export default SliderComponent;

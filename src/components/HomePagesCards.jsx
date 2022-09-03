@@ -142,6 +142,29 @@ const HomePagesCards = () => {
 				</div>
 			</div>
 			{/* END OF CARD SECTION  */}
+
+			{/* WHY SHOULD STUDY ONLINE TEXT  */}
+			<div className=" max-w-full  ">
+				<p className="  text-center font-medium font-serif tracking-wide text-lg text-gray-600  lg:mx-24 mx-5 mb-10 italic">
+					The beauty of a virtual classroom is that you can learn practically
+					anything! Some programs require practical skills, such as training to
+					become a healthcare worker (nurse, doctor, etc.) or a craftsperson.
+					However, most theoretical knowledge can easily be obtained through
+					online learning. Some of the most popular courses are those for the IT
+					industry, such as computer science and data science courses. Digital
+					marketing is also a popular topic these days, as well as all different
+					kinds of management. You can also find courses to improve your soft
+					skills, such as communication, leadership, teamwork, organization, and
+					similar skills that aren’t necessarily tied to a specific job or
+					career. Additionally, you can sign up for an online learning
+					experience to pick up a new hobby, such as digital painting, pottery,
+					learning a new language, cooking, or others. Keep in mind that not
+					every program offers a professional certificate at the end. If you
+					want to utilize your newfound knowledge or skills in a professional
+					setting, you may want to sign up for a course that offers
+					certification upon its completion. This is usually not a free course.
+				</p>
+			</div>
 		</>
 	);
 };
