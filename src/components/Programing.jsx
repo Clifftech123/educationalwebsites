@@ -28,7 +28,7 @@ const Programing = () => {
 
 	return (
 		<>
-			<div className=" p-10  grid grid-cols-1 sm:grid-cols-1 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-4 sm:justify-center">
+			<div className=" p-10 sm:w-full     grid grid-cols-1 sm:grid-cols-1 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-4 sm:justify-center">
 				{/* W3SCHOOL */}
 				<div className="p-10">
 					<div className="max-w-sm rounded overflow-hidden shadow-sm border">
@@ -37,19 +37,16 @@ const Programing = () => {
 							<div className="font-bold text-xl mb-2  text-Footer_bg ">
 								W3school
 							</div>
-							<p className="text-gray-700 text-base"></p>
+							<p className="text-gray-700 text-base">
+								W3Schools is a web developers site, with tutorials and
+								references on web development languages such as HTML, CSS,
+								JavaScript, PHP, SQL, and JQuery, covering most aspects of web
+								programming.
+							</p>
 						</div>
-						<div className="px-6 pt-4 pb-2 md:space-2">
+						<div className="px-6 pt-4 pb-2 ">
 							<span>
-								<button
-									type="button"
-									className="inline-block  bg-G_Purple -200 rounded-full px-3 py-1 text-md font-semibold text-white mr-2 mb-2"
-								>
-									Read More
-								</button>
-							</span>
-							<span>
-								<li className=" inline-block  bg-G_Purple -200 rounded-full px-3 py-1 text-md font-semibold text-white mr-2 mb-2 ">
+								<li className=" inline-block  w-full text-center last:  bg-blue-700 px-3 py-1 rounded-md text-md py-1 text-md font-semibold text-white mr-2 mb-2 ">
 									<a href={W3schoolSite} target={"_blank"} rel="noreferrer">
 										Visit Site
 									</a>
@@ -67,19 +64,16 @@ const Programing = () => {
 							<div className="font-bold text-xl mb-2   text-Footer_bg ">
 								FreeCodeCamp
 							</div>
-							<p className="text-gray-700 text-base"></p>
+							<p className="text-gray-700 text-base">
+								freeCodeCamp is a non-profit organization that consists of an
+								interactive learning web platform, an online community forum,
+								chat rooms, online publications and local organizations that
+								intend to make learning web development.
+							</p>
 						</div>
-						<div className="px-6 pt-4 pb-2 md:space-2">
+						<div className="px-6 pt-4 pb-2">
 							<span>
-								<button
-									type="button"
-									className="inline-block  bg-G_Purple -200 rounded-full px-3 py-1 text-md font-semibold text-white mr-2 mb-2"
-								>
-									Read More
-								</button>
-							</span>
-							<span>
-								<li className=" inline-block  bg-G_Purple -200 rounded-full px-3 py-1 text-md font-semibold text-white mr-2 mb-2 ">
+								<li className=" inline-block  text-center w-full  bg-blue-700 px-3 py-1 rounded-md text-md text-md font-semibold text-white mr-2 mb-2 ">
 									<a href={FreeCodeCampSite} target={"_blank"} rel="noreferrer">
 										Visit Site
 									</a>
@@ -97,19 +91,16 @@ const Programing = () => {
 							<div className="font-bold text-xl mb-2   text-Footer_bg ">
 								Udemy
 							</div>
-							<p className="text-gray-700 text-base"></p>
+							<p className="text-gray-700 text-base">
+								Udemy a for-profit massive open online course provider aimed at
+								professional adults and students. Caglar. the platform has more
+								than 52 million students, 196,000 courses, and 68,000
+								instructors teaching courses in over 75 languages.
+							</p>
 						</div>
 						<div className="px-6 pt-4 pb-2 md:space-2">
 							<span>
-								<button
-									type="button"
-									className="inline-block  bg-G_Purple -200 rounded-full px-3 py-1 text-md font-semibold text-white mr-2 mb-2"
-								>
-									Read More
-								</button>
-							</span>
-							<span>
-								<li className=" inline-block  bg-G_Purple -200 rounded-full px-3 py-1 text-md font-semibold text-white mr-2 mb-2 ">
+								<li className=" inline-block text-center w-full bg-blue-700 px-3 py-1 rounded-md text-md font-semibold text-white mr-2 mb-2 ">
 									<a href={UdyemSite} target={"_blank"} rel="noreferrer">
 										Visit Site
 									</a>
@@ -250,7 +241,10 @@ const Programing = () => {
 					<div className="max-w-sm rounded overflow-hidden  shadow-sm border">
 						<img className="w-full" src={codeCademy} alt="codecademy" />
 						<div className="px-6 py-4">
-							<div className="font-bold text-xl mb-2  text-Footer_bg "> codecademy</div>
+							<div className="font-bold text-xl mb-2  text-Footer_bg ">
+								{" "}
+								codecademy
+							</div>
 							<p className="text-gray-700 text-base hidden">
 								Love is good we have to sick to and see what the more we lve the
 								more good we you in your own way the more peolple come to me the
