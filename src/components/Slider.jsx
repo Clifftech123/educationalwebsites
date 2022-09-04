@@ -33,7 +33,7 @@ const SliderComponent = () => {
 	const Slider = () => {
 		slideInterval = setInterval(() => {
 			handelOnNextClick();
-		}, 4000);
+		}, 2000);
 	};
 
 	// PAUSE INTERNAL FUNCTIONS
