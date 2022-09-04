@@ -24,15 +24,19 @@ const codecademy = "https://www.codecademy.com/";
 
 const Programing = () => {
 
- const [ CloseText , SetCloseText] = useState(false)
+ 
 
 	return (
 		<>
-			<div className=" p-10 sm:w-full     grid grid-cols-1 sm:grid-cols-1 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-4 sm:justify-center">
+			<div className=" p-30 py-24  sm:w-full grid grid-cols-1 sm:grid-cols-1 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-4 ">
 				{/* W3SCHOOL */}
 				<div className="p-10">
 					<div className="max-w-sm rounded overflow-hidden shadow-sm border">
-						<img className="w-full" src={W3school} alt="W3school " />
+						<img
+							className="w-full  2xl:object-cover 2xl:object-center sm:w-full sm:object-cover sm:object-center"
+							src={W3school}
+							alt="W3school "
+						/>
 						<div className="px-6 py-4">
 							<div className="font-bold text-xl mb-2  text-Footer_bg ">
 								W3school
@@ -59,7 +63,11 @@ const Programing = () => {
 				{/* SECOND CARD  /FreecodeCamp*/}
 				<div className="p-10">
 					<div className="max-w-sm rounded overflow-hidden  shadow-sm border">
-						<img className="w-full" src={FreeCodeCamp} alt="FreeCodeCamp" />
+						<img
+							className="w-full  2xl:object-cover 2xl:object-center sm:w-full sm:object-cover sm:object-center"
+							src={FreeCodeCamp}
+							alt="FreeCodeCamp"
+						/>
 						<div className="px-6 py-4">
 							<div className="font-bold text-xl mb-2   text-Footer_bg ">
 								FreeCodeCamp
@@ -86,7 +94,11 @@ const Programing = () => {
 				{/* THIRD CARD Udemy  */}
 				<div className="p-10">
 					<div className="max-w-sm rounded overflow-hidden  shadow-sm border">
-						<img className="w-full" src={Udemy} alt="Udemy" />
+						<img
+							className="w-full  2xl:object-cover 2xl:object-center sm:w-full sm:object-cover sm:object-center"
+							src={Udemy}
+							alt="Udemy"
+						/>
 						<div className="px-6 py-4">
 							<div className="font-bold text-xl mb-2   text-Footer_bg ">
 								Udemy
@@ -113,7 +125,11 @@ const Programing = () => {
 
 				<div className="p-10">
 					<div className="max-w-sm rounded overflow-hidden  shadow-sm border">
-						<img className="w-full" src={Udx} alt="Udx" />
+						<img
+							className="w-full  2xl:object-cover 2xl:object-center sm:w-full sm:object-cover sm:object-center"
+							src={Udx}
+							alt="Udx"
+						/>
 						<div className="px-6 py-4">
 							<div className="font-bold text-xl mb-2  text-Footer_bg ">edx</div>
 							<p className="text-gray-700 text-base hidden">
@@ -125,7 +141,7 @@ const Programing = () => {
 						<div className="px-6 pt-4 pb-2 md:space-2">
 							<span>
 								<button
-									onClick={() => SetCloseText(true)}
+									
 									type="button"
 									className="inline-block  bg-G_Purple -200 rounded-full px-3 py-1 text-md font-semibold text-white mr-2 mb-2"
 								>
@@ -145,11 +161,15 @@ const Programing = () => {
 			</div>
 
 			{/* -----------=============== SECOND ROW=========== ============== */}
-			<div className=" p-10  grid grid-cols-1 sm:grid-cols-1 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-4 sm:justify-center">
+			<div className=" p-30 py-24  grid grid-cols-1 sm:grid-cols-1 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-4 sm:justify-center">
 				{/* https://www.udacity.com/ */}
 				<div className="p-10">
 					<div className="max-w-sm rounded overflow-hidden shadow-sm border">
-						<img className="w-full" src={Udercity} alt="Udercity " />
+						<img
+							className="w-full  2xl:object-cover 2xl:object-center sm:w-full sm:object-cover sm:object-center"
+							src={Udercity}
+							alt="Udercity "
+						/>
 						<div className="px-6 py-4">
 							<div className="font-bold text-xl mb-2  text-Footer_bg ">
 								Udacity
@@ -179,7 +199,11 @@ const Programing = () => {
 				{/* pluralsight*/}
 				<div className="p-10">
 					<div className="max-w-sm rounded overflow-hidden  shadow-sm border">
-						<img className="w-full" src={pluralsight} alt="pluralsight" />
+						<img
+							className="w-full  2xl:object-cover 2xl:object-center sm:w-full sm:object-cover sm:object-center"
+							src={pluralsight}
+							alt="pluralsight"
+						/>
 						<div className="px-6 py-4">
 							<div className="font-bold text-xl mb-2   text-Footer_bg ">
 								Pluralsight
@@ -209,7 +233,11 @@ const Programing = () => {
 				{/* MDN  */}
 				<div className="p-10">
 					<div className="max-w-sm rounded overflow-hidden  shadow-sm border">
-						<img className="w-full" src={MDN} alt="MDN" />
+						<img
+							className="w-full  2xl:object-cover 2xl:object-center sm:w-full sm:object-cover sm:object-center"
+							src={MDN}
+							alt="MDN"
+						/>
 						<div className="px-6 py-4">
 							<div className="font-bold text-xl mb-2   text-Footer_bg ">
 								MDN
@@ -239,8 +267,12 @@ const Programing = () => {
 
 				<div className="p-10">
 					<div className="max-w-sm rounded overflow-hidden  shadow-sm border">
-						<img className="w-full" src={codeCademy} alt="codecademy" />
-						<div className="px-6 py-4">
+						<img
+							className="w-full  2xl:object-cover 2xl:object-center sm:w-full sm:object-cover sm:object-center"
+							src={codeCademy}
+							alt="codecademy"
+						/>
+						<div className="px-6 py-6">
 							<div className="font-bold text-xl mb-2  text-Footer_bg ">
 								{" "}
 								codecademy
@@ -254,7 +286,7 @@ const Programing = () => {
 						<div className="px-6 pt-4 pb-2 md:space-2">
 							<span>
 								<button
-									onClick={() => SetCloseText(true)}
+								
 									type="button"
 									className="inline-block  bg-G_Purple -200 rounded-full px-3 py-1 text-md font-semibold text-white mr-2 mb-2"
 								>
