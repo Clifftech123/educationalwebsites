@@ -32,9 +32,9 @@ const NavBarComponent = () => {
 			<div className="      justify-between  px-4 mx-auto lg:max-w-7xl md:items-center md:flex md:px-8 font">
 				<div>
 					<div className="flex items-center justify-between py-3 md:py-5 md:block">
-							<h2 className="text-2xl font-bold text-white">LOGO</h2>
-					
-					{/* TOGGLE */}
+						<h2 className="text-2xl font-bold text-white">LOGO</h2>
+
+						{/* TOGGLE */}
 						<div className="md:hidden">
 							<button
 								className="p-2 text-white rounded-md outline-none focus:border-gray-400 focus:border"
@@ -81,27 +81,43 @@ const NavBarComponent = () => {
 					>
 						<ul className="items-center   text-lg  justify-center space-y-8 md:flex md:space-x-6 md:space-y-0  md:divide-y-0">
 							<li className="text-white   hover:text-Navbar_text_color">
-								<NavLink  style={navLinkStyles} to="/">Home</NavLink>
+								<NavLink style={navLinkStyles} to="/">
+									Home
+								</NavLink>
 							</li>
 							<li className="text-white    hover:text-Navbar_text_color">
-								<NavLink style={navLinkStyles} to="/programing"> Programming </NavLink>
+								<NavLink style={navLinkStyles} to="/programing">
+									{" "}
+									Programming{" "}
+								</NavLink>
 							</li>
 							<li className="text-white  hover:text-Navbar_text_color">
-								<NavLink style={navLinkStyles} to="/student"> Student </NavLink>
+								<NavLink style={navLinkStyles} to="/student">
+									{" "}
+									Student{" "}
+								</NavLink>
 							</li>
 							<li className="text-white ">
-								<NavLink style={navLinkStyles} to="/marketing"> Marketing </NavLink>
+								<NavLink style={navLinkStyles} to="/marketing">
+									{" "}
+									Marketing{" "}
+								</NavLink>
 							</li>
 							<div>
-							
 								{/* Social links it automatically hidden in the small device  */}
 								<ul className=" hidden text-2xl  mt-5 mr-4 ml-0  md:ml-10   text-center  md:flex justify-end  md:mt-0   md:space-x-6 md:space-y-0">
-									<li className="text-white  hover:text-Navbar_text_color">
+									<li
+										className="text-white  hover:text-Navbar_text_color"
+										title="Github"
+									>
 										<a href={Github} target={"_blank"} rel="noreferrer">
 											<FaGithub />
 										</a>
 									</li>
-									<li className=" text-white  hover:text-Navbar_text_color">
+									<li
+										className=" text-white  hover:text-Navbar_text_color"
+										title="Twitter"
+									>
 										<a href={Twitter} target={"_blank"} rel="noreferrer">
 											<FaTwitter />
 										</a>
