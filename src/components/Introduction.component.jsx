@@ -10,11 +10,11 @@ function Introduction() {
 				<div className=" bg-white shadow-sm   grid lg:grid-cols-2 2xl:grid-cols-5">
 					<div className="px-8 py-12 max-w-md mx-auto sm:max-w-xl lg:px-12 lg:py-24 lg:max-w-full xl:mr-0 2xl:col-span-2">
 						<div className="xl:max-w-lg ">
-							<div className = "aspect-w-16 aspect-h-9 lg:mt-32">
+							<div className="aspect-w-16 aspect-h-9 lg:mt-32">
 								<img
 									className=" w-full mt-10 object-cover object-center 2xl:w-full 2zl:mt-10 2xl:object-cover 2xl:object-center   sm:mt-8 sm:h-64 sm:w-full sm:object-cover sm:object-center lg:hidden"
 									src={Monochromatic}
-									alt="Woman  on the beach"
+									alt="SVG img "
 								/>
 							</div>
 							<h1 className="mt-6 text-2xl font-bold text-gray-900 sm:mt-8 sm:text-4xl lg:text-3xl xl:text-4xl">
@@ -25,17 +25,14 @@ function Introduction() {
 								</span>
 							</h1>
 							<p className=" text-lg  mt-2 text-gray-600 sm:mt-4 sm:text-xl">
-								Workcation helps you find work-friendly rentals in beautiful
-								locations so you can enjoy some nice weather even when you're
-								not on vacation.
+								Online education enables you to study or teach from anywhere in
+								the world. This means there's no need to commute from one place
+								to another, or follow a rigid schedule. On top of that, not only
+								do you save time, but you also save money, which can be spent on
+								other priorities.
 							</p>
 							<div className="mt-4 sm:mt-6">
-								{/* <button
-									className="inline-block px-5 py-3 rounded-lg  bg-sky-500 hover:bg-sky-700 uppercase tracking-wider font-semibold text-sm text-white shadow-lg sm:text-base"
-									href="#"
-								>
-									Get Started
-								</button> */}
+							
 							</div>
 						</div>
 					</div>
