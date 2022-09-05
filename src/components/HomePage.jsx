@@ -1,7 +1,7 @@
 import React from 'react'
 import Introduction from './Introduction.component';
 import HomePagesCards from "./HomePagesCards"
-import SliderComponent from "./Slider";
+// import SliderComponent from "./Slider";
 
 
 
@@ -10,7 +10,7 @@ const  HomePage =() => {
 		// RENDING THE HOMEPAGE COMPONENTS
 		<>
 			<Introduction /> {/* RENDING THE INTRODUCTION PAGE COMPONENT  */}
-			<SliderComponent />
+			{/* <SliderComponent /> */}
 			<HomePagesCards /> {/* RENDING HOME CARD COMPONENT     */}
 		</>
 	);
