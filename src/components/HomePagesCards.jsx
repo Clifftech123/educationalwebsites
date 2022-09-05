@@ -2,8 +2,16 @@ import React from "react";
 import cardImageOne from "./IMAGES/cardIMageOne.jpg";
 import Student from "./IMAGES/Student (1).jpg";
 import Marketing from "./IMAGES/Marketing.jpg";
+import C from "./IMAGES/Slider2.jpg";
 import { FaChevronDown } from "react-icons/fa";
 import { useNavigate } from "react-router-dom";
+
+
+
+
+
+
+
 
 const HomePagesCards = () => {
 	const Navigate = useNavigate();
@@ -18,8 +26,8 @@ const HomePagesCards = () => {
 						src={cardImageOne}
 						alt="Programing"
 					/>
-					<div className="px-6 py-4 border-b">
-						<div className=" font-Poppins border-b text-gray-900 text-3xl text-center mb-2">
+					<div className="px-6 py-4  border-b">
+						<div className=" font-Poppins  text-G_Purple text-3xl text-center mb-2">
 							Programing
 						</div>
 						<p className="text-gray-700 text-base mb-5">
@@ -42,7 +50,7 @@ const HomePagesCards = () => {
 							// onClick button will automatically lead you to the programing page
 							onClick={() => Navigate("/programing")}
 							type="button"
-							className="  p-4 w-full  text-center justify-center align-middle px-6 pt-2.5 pb-2 bg-G_Purple text-white font-medium text-xs leading-normal uppercase rounded shadow-md hover:bg-blue-700 hover:shadow-lg focus:bg-blue-700 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-blue-800 active:shadow-lg transition duration-150 ease-in-out flex align-center"
+							className="  p-4 w-full  text-center justify-center align-middle px-6 pt-2.5 pb-2 bg-Footer_bg text-white font-medium text-xs leading-normal uppercase rounded shadow-md hover:bg-G_Purple  hover:shadow-lg focus:bg-blue-700 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-blue-800 active:shadow-lg transition duration-150 ease-in-out flex align-center"
 						>
 							<span className="text-lg">
 								{" "}
@@ -56,14 +64,14 @@ const HomePagesCards = () => {
 				{/* END OF FIRST  CARD */}
 
 				{/*================ SECOND CARD================== */}
-				<div className="    rounded-xl border p-1  hover:shadow-lg overflow-hidden   bg-white  shadow-sm">
+				<div className=" rounded-xl border p-1  hover:shadow-lg overflow-hidden  bg-white  shadow-sm">
 					<img
 						className="w-full  2xl:object-cover 2xl:object-center sm:w-full sm:object-cover sm:object-center "
 						src={Student}
 						alt="Sut"
 					/>
 					<div className="px-6 py-4 border-b">
-						<div className=" font-Poppins border-b text-gray-900 text-3xl text-center   mb-2">
+						<div className=" font-Poppins   text-G_Purple text-3xl text-center   mb-2">
 							Student
 						</div>
 						<p className="text-gray-700 text-base mb-5">
@@ -85,7 +93,8 @@ const HomePagesCards = () => {
 							// onClick button will automatically lead you to the Student page
 							onClick={() => Navigate("/Student")}
 							type="button"
-							className="   w-full text-center justify-center align-middle   px-6 pt-2.5 pb-2 bg-G_Purple text-white font-medium text-xs leading-normal uppercase rounded shadow-md hover:bg-blue-700 hover:shadow-lg focus:bg-blue-700 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-blue-800 active:shadow-lg transition duration-150 ease-in-out flex align-center"
+							className="   w-full text-center justify-center align-middle   px-6 pt-2.5 pb-2 bg-Footer_bg text-white font-medium text-xs leading-normal uppercase rounded shadow-md hover:bg-G_Purple  hover:shadow-lg focus:bg-blue-700 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-blue-800 active:shadow-lg transition duration-150 ease-in-out flex align-center"
+							title="Student "
 						>
 							<span className="text-lg">
 								{" "}
@@ -105,8 +114,8 @@ const HomePagesCards = () => {
 						src={Marketing}
 						alt="Forest"
 					/>
-					<div className="px-6 py-4 border-b">
-						<div className=" font-Poppins border-b text-gray-900 text-3xl text-center   mb-2">
+					<div className="px-6 py-4  border-b">
+						<div className=" font-Poppins text-G_Purple text-3xl text-center   mb-2">
 							Marketing
 						</div>
 						<p className="text-gray-700 text-base mb-5">
@@ -130,7 +139,7 @@ const HomePagesCards = () => {
 							// onClick button will automatically lead you to the marking page
 							onClick={() => Navigate("/Marketing")}
 							type="button"
-							className="  w-full text-center justify-center align-middle   px-6 pt-2.5 pb-2 bg-G_Purple text-white font-medium text-xs leading-normal uppercase rounded shadow-md hover:bg-blue-700 hover:shadow-lg focus:bg-blue-700 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-blue-800 active:shadow-lg transition duration-150 ease-in-out flex align-center"
+							className="  w-full text-center justify-center align-middle   px-6 pt-2.5 pb-2 bg-Footer_bg text-white font-medium text-xs leading-normal uppercase rounded shadow-md hover:bg-G_Purple hover:shadow-lg focus:bg-blue-700 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-blue-800 active:shadow-lg transition duration-150 ease-in-out flex align-center"
 						>
 							<span className="text-lg">
 								{" "}
@@ -144,26 +153,46 @@ const HomePagesCards = () => {
 			{/* END OF CARD SECTION  */}
 
 			{/* WHY SHOULD STUDY ONLINE TEXT  */}
-			<div className=" max-w-full  ">
-				<p className="  text-center font-medium font-serif tracking-wide text-lg text-gray-600  lg:mx-24 mx-5 mb-10 italic">
-					The beauty of a virtual classroom is that you can learn practically
-					anything! Some programs require practical skills, such as training to
-					become a healthcare worker (nurse, doctor, etc.) or a craftsperson.
-					However, most theoretical knowledge can easily be obtained through
-					online learning. Some of the most popular courses are those for the IT
-					industry, such as computer science and data science courses. Digital
-					marketing is also a popular topic these days, as well as all different
-					kinds of management. You can also find courses to improve your soft
-					skills, such as communication, leadership, teamwork, organization, and
-					similar skills that aren’t necessarily tied to a specific job or
-					career. Additionally, you can sign up for an online learning
-					experience to pick up a new hobby, such as digital painting, pottery,
-					learning a new language, cooking, or others. Keep in mind that not
-					every program offers a professional certificate at the end. If you
-					want to utilize your newfound knowledge or skills in a professional
-					setting, you may want to sign up for a course that offers
-					certification upon its completion. This is usually not a free course.
-				</p>
+
+			<div id="Introduction" className=" text-center">
+				<div>
+					<div className=" bg-white shadow-sm  md:ml-20 grid lg:grid-cols-2 2xl:grid-cols-5 ">
+						<div className="hidden relative sm:p-20 py-12 lg:block 2xl:col-span-3">
+							<img
+								className="absolute inset-0 w-full h-full  "
+								src={C}
+								alt="  SVG img for the  "
+							/>
+						</div>
+						<div className="px-2 py-12 max-w-md mx-auto sm:max-w-xl lg:px-12 lg:py-24 lg:max-w-full xl:mr-0 2xl:col-span-2">
+							<div className="xl:max-w-lg ">
+								<div className="aspect-w-16 aspect-h-9 lg:mt-32">
+									<img
+										className=" w-full mt-10 object-cover object-center 2xl:w-full 2xl:mt-10 2xl:object-cover 2xl:object-center sm:p-30   sm:h-64 sm:w-full sm:object-cover sm:object-center lg:hidden"
+										src={C}
+										alt="Woman  on the beach"
+									/>
+								</div>
+								<h1 className="mt-6 text-2xl  text-gray-900 sm:mt-8 sm:text-4xl lg:text-3xl xl:text-4xl">
+									Take your skills to the next level
+									<br className="hidden lg:inline" />
+								</h1>
+								<p className=" text-lg md: mt-2 text-gray-600 sm:mt-4 sm:text-xl">
+									The beauty of a virtual classroom is that you can learn
+									practically anything! Some programs require practical skills,
+									such as training to become a healthcare worker (nurse, doctor,
+									etc.) or a craftsperson. However, most theoretical knowledge
+									can easily be obtained through online learning. Some of the
+									most popular courses are those for the IT industry, such as
+									computer science and data science courses. Digital marketing
+									is also a popular topic these days, as well as all different
+									kinds of management..
+								</p>
+								<div className="mt-4 sm:mt-6"></div>
+							</div>
+						</div>
+					</div>
+				</div>
 			</div>
 		</>
 	);
