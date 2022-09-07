@@ -95,10 +95,10 @@ const Facebook = "https://web.facebook.com/opokuisaiah.clifford/";
 
 							{/*================ DEVELOPER TEXT ===========*/}
 							<div className="text-center mt-2">
-								<h3 className="text-2xl text-white font-bold leading-normal mb-1">
+								<h3 className="text-2xl text-gray-200 font-bold leading-normal mb-1">
 									Opoku Isaiah Clifford
 								</h3>
-								<div className="text-xs mt-0 mb-2 text-gray-100 font-bold ">
+								<div className="text-xs mt-0 mb-2 text-gray-200 font-bold ">
 									<i className="fas fa-map-marker-alt mr-2 text-slate-400 opacity-75"></i>
 									Software Developer
 								</div>
@@ -107,7 +107,7 @@ const Facebook = "https://web.facebook.com/opokuisaiah.clifford/";
 							<div className="mt-6 py-6 border-t border-slate-200 text-center">
 								<div className="flex flex-wrap justify-center">
 									<div className="w-full px-4">
-										<p className="font-light leading-relaxed text-white mb-4">
+										<p className="font-light leading-relaxed text-gray-200 mb-4">
 	
 											The world might be on hold but we are here to ensure that
 											your future is not! Keeping the importance of higher
@@ -130,7 +130,7 @@ const Facebook = "https://web.facebook.com/opokuisaiah.clifford/";
 						<div className="container mx-auto px-4">
 							<div className="flex flex-wrap items-center md:justify-between justify-center">
 								<div className="w-full md:w-6/12 px-4 mx-auto text-center">
-									<div className="text-sm text-white  font-semibold py-1">
+									<div className="text-sm text-gray-200  font-semibold py-1">
 									
 										<p>
 											Develope by Opoku Isaiah Clifford &copy; Copyright 2022
