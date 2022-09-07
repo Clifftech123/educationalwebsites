@@ -54,7 +54,7 @@ const Programing = () => {
 						</div>
 						<div className="px-6 pt-4 pb-2 ">
 							<span>
-								<button className=" inline-block  w-full text-center last: bg-Footer_bg  px-3 py-1 rounded-md text-md text-md font-semibold text-white mr-2 mb-2 ">
+								<button className=" inline-block  w-full text-center last: bg-blue-900  px-3 py-1 rounded-md text-md text-md font-semibold text-white mr-2 mb-2 ">
 									<a href={W3schoolSite} target={"_blank"} rel="noreferrer">
 										Visit Site
 									</a>
@@ -85,7 +85,7 @@ const Programing = () => {
 						</div>
 						<div className="px-6 pt-4 pb-2">
 							<span>
-								<button className=" inline-block  text-center w-full bg-Footer_bg  px-3 py-1 rounded-md text-md text-md font-semibold text-white mr-2 mb-2 ">
+								<button className=" inline-block  text-center w-full bg-blue-900   px-3 py-1 rounded-md text-md text-md font-semibold text-white mr-2 mb-2 ">
 									<a href={FreeCodeCampSite} target={"_blank"} rel="noreferrer">
 										Visit Site
 									</a>
@@ -116,7 +116,7 @@ const Programing = () => {
 						</div>
 						<div className="px-6 pt-4 pb-2 md:space-2">
 							<span>
-								<button className=" inline-block text-center w-full bg-Footer_bg  px-3 py-1 rounded-md text-md font-semibold text-white mr-2 mb-2 ">
+								<button className=" inline-block text-center w-full bg-blue-900  px-3 py-1 rounded-md text-md font-semibold text-white mr-2 mb-2 ">
 									<a href={UdyemSite} target={"_blank"} rel="noreferrer">
 										Visit Site
 									</a>
@@ -146,7 +146,7 @@ const Programing = () => {
 						</div>
 						<div className="px-6 pt-4 pb-2 md:space-2">
 							<span>
-								<button className=" inline-block text-center w-full bg-Footer_bg rounded-md px-3 py-1 text-md font-semibold text-white mr-2 mb-2 ">
+								<button className=" inline-block text-center w-full bg-blue-900  rounded-md px-3 py-1 text-md font-semibold text-white mr-2 mb-2 ">
 									<a href={UdxSite} target={"_blank"} rel="noreferrer">
 										Visit Site
 									</a>
@@ -177,7 +177,7 @@ const Programing = () => {
 						</div>
 						<div className="px-6 pt-4 pb-2 md:space-2">
 							<span>
-								<button className=" inline-block  text-center w-full bg-Footer_bg  rounded-md px-3 py-1 text-md font-semibold text-white mr-2 mb-2 ">
+								<button className=" inline-block  text-center w-full  bg-blue-900  rounded-md px-3 py-1 text-md font-semibold text-white mr-2 mb-2 ">
 									<a href={Usercity} target={"_blank"} rel="noreferrer">
 										Visit Site
 									</a>
@@ -208,7 +208,7 @@ const Programing = () => {
 						</div>
 						<div className="px-6 pt-4 pb-2 md:space-2">
 							<span>
-								<button className=" inline-block text-center w-full bg-Footer_bg  rounded-md  px-3 py-1 text-md font-semibold text-white mr-2 mb-2 ">
+								<button className=" inline-block text-center w-full  bg-blue-900  rounded-md  px-3 py-1 text-md font-semibold text-white mr-2 mb-2 ">
 									<a href={Pluralsight} target={"_blank"} rel="noreferrer">
 										Visit Site
 									</a>
@@ -242,7 +242,7 @@ const Programing = () => {
 						</div>
 						<div className="px-6 pt-4 pb-2 md:space-2">
 							<span>
-								<button className=" inline-block text-center w-full bg-Footer_bg  rounded-md px-3 py-1 text-md font-semibold text-white mr-2 mb-2 ">
+								<button className=" inline-block text-center w-full bg-blue-900  rounded-md px-3 py-1 text-md font-semibold text-white mr-2 mb-2 ">
 									<a href={Mozilla} target={"_blank"} rel="noreferrer">
 										Visit Site
 									</a>
@@ -274,7 +274,7 @@ const Programing = () => {
 						</div>
 						<div className="px-6 pt-4 pb-2 md:space-2">
 							<span>
-								<button className=" inbuttonne-block text-center w-full bg-Footer_bg  rounded-md px-3 py-1 text-md font-semibold text-white mr-2 mb-2 ">
+								<button className=" inbuttonne-block text-center w-full  bg-blue-900  rounded-md px-3 py-1 text-md font-semibold text-white mr-2 mb-2 ">
 									<a href={codecademy} target={"_blank"} rel="noreferrer">
 										Visit Site
 									</a>
@@ -306,7 +306,7 @@ const Programing = () => {
 						</div>
 						<div className="px-6 pt-4 pb-2 md:space-2">
 							<span>
-								<button className=" inline-block text-center w-full bg-Footer_bg  rounded-md px-3 py-1 text-md font-semibold text-white mr-2 mb-2 ">
+								<button className=" inline-block text-center w-full  bg-blue-900  rounded-md px-3 py-1 text-md font-semibold text-white mr-2 mb-2 ">
 									<a href={greeKforGreeks} target={"_blank"} rel="noreferrer">
 										Visit Site
 									</a>
@@ -340,7 +340,7 @@ const Programing = () => {
 						</div>
 						<div className="px-6 pt-4 pb-2 md:space-2">
 							<span>
-								<button className=" inline-block text-center w-full bg-Footer_bg  rounded-md px-3 py-1 text-md font-semibold text-white mr-2 mb-2 ">
+								<button className=" inline-block text-center w-full  bg-blue-900  rounded-md px-3 py-1 text-md font-semibold text-white mr-2 mb-2 ">
 									<a href={Progamix} target={"_blank"} rel="noreferrer">
 										Visit Site
 									</a>
@@ -373,7 +373,7 @@ const Programing = () => {
 						</div>
 						<div className="px-6 pt-4 pb-2 md:space-2">
 							<span>
-								<button className=" inline-block text-center w-full bg-Footer_bg  rounded-md px-3 py-1 text-md font-semibold text-white mr-2 mb-2 ">
+								<button className=" inline-block text-center w-full bg-blue-900 rounded-md px-3 py-1 text-md font-semibold text-white mr-2 mb-2 ">
 									<a href={studytonight} target={"_blank"} rel="noreferrer">
 										Visit Site
 									</a>
@@ -397,15 +397,15 @@ const Programing = () => {
 								Theodinproject
 							</div>
 							<p className="text-gray-700 text-base ">
-								Theodinproject has  a curriculum with the best curated
-								online tutorials, blogs, and courses. website we wish we had
-								when we were learning on our own. We scour the internet looking
-								for only the best resources to supplement your learning.
+								Theodinproject has a curriculum with the best curated online
+								tutorials, blogs, and courses. website we wish we had when we
+								were learning on our own. We scour the internet looking for only
+								the best resources to supplement your learning.
 							</p>
 						</div>
 						<div className="px-6 pt-4 pb-2 md:space-2">
 							<span>
-								<button className=" inline-block text-center w-full bg-Footer_bg  rounded-md px-3 py-1 text-md font-semibold text-white mr-2 mb-2 ">
+								<button className=" inline-block text-center w-full bg-blue-900   rounded-md px-3 py-1 text-md font-semibold text-white mr-2 mb-2 ">
 									<a href={theodinproject} target={"_blank"} rel="noreferrer">
 										Visit Site
 									</a>
