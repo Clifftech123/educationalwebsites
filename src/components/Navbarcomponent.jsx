@@ -87,20 +87,20 @@ const NavBarComponent = () => {
 							</li>
 							<li className="text-white    hover:text-Navbar_text_color">
 								<NavLink style={navLinkStyles} to="/programing">
-									{" "}
-									Programming{" "}
+								
+									Programming
 								</NavLink>
 							</li>
 							<li className="text-white  hover:text-Navbar_text_color">
 								<NavLink style={navLinkStyles} to="/student">
-									{" "}
-									Student{" "}
+									
+									Student
 								</NavLink>
 							</li>
 							<li className="text-white ">
-								<NavLink style={navLinkStyles} to="/marketing">
+								<NavLink style={navLinkStyles} to="/Jobs">
 									{" "}
-									Marketing{" "}
+									Jobs
 								</NavLink>
 							</li>
 							<div>
