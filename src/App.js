@@ -6,7 +6,7 @@ import HomePage from './components/HomePage.jsx';
 import NavBarComponent from './components/Navbarcomponent'
 import Programing from './components/Programing'
 import Student from './components/Student'
-import Marketing from './components/Marketing'
+import Jobs from './components/Jobs'
 import Footer from './components/Footer.jsx';
 
 
@@ -18,7 +18,7 @@ function App() {
 			<Route path="/" element={< HomePage />} />
 			<Route path="/programing" element={<Programing />} />
 			<Route path="/Student" element={<Student />} />
-			<Route path="/Marketing" element={<Marketing />} />
+			<Route path="/jobs" element={<Jobs />} />
 		</Routes>
 		<Footer/>
 	</BrowserRouter>

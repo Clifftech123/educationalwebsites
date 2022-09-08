@@ -116,7 +116,7 @@ const HomePagesCards = () => {
 					/>
 					<div className="px-6 py-4  border-b">
 						<div className=" font-Poppins text-G_Purple text-3xl text-center   mb-2">
-							Marketing
+							Jobs
 						</div>
 						<p className="text-gray-700 text-base mb-5">
 							here are so many reasons why you might want to study marketing: it
@@ -137,7 +137,7 @@ const HomePagesCards = () => {
 					<div className=" flex text-center justify-center  px-6 pt-4 pb-2">
 						<button
 							// onClick button will automatically lead you to the marking page
-							onClick={() => Navigate("/Marketing")}
+							onClick={() => Navigate("/Jobs")}
 							type="button"
 							className="  w-full text-center justify-center align-middle   px-6 pt-2.5 pb-2 bg-Footer_bg text-white font-medium text-xs leading-normal uppercase rounded shadow-md hover:bg-G_Purple hover:shadow-lg focus:bg-blue-700 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-blue-800 active:shadow-lg transition duration-150 ease-in-out flex align-center"
 						>
