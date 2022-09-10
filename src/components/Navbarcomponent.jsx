@@ -1,5 +1,6 @@
 
 import  React from 'react';
+
 import {NavLink } from "react-router-dom";
 import { useState } from "react";
 import {FaGithub}  from "react-icons/fa";
@@ -32,7 +33,7 @@ const NavBarComponent = () => {
 			<div className="      justify-between  px-4 mx-auto lg:max-w-7xl md:items-center md:flex md:px-8 font">
 				<div>
 					<div className="flex items-center justify-between py-3 md:py-5 md:block">
-						<h2 className="text-2xl font-bold text-white">LOGO</h2>
+						<h2 className="  text-2xl  font-Poppins text-white">CLIFFTECH </h2>
 
 						{/* TOGGLE */}
 						<div className="md:hidden">
