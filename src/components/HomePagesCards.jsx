@@ -6,6 +6,8 @@ import C from "./IMAGES/Slider2.jpg";
 import { FaChevronDown } from "react-icons/fa";
 import { useNavigate } from "react-router-dom";
 
+import { BsDashCircle } from "react-icons/bs";
+
 
 
 
@@ -152,7 +154,11 @@ const HomePagesCards = () => {
 			</div>
 			{/* END OF CARD SECTION  */}
 
-			{/* WHY SHOULD STUDY ONLINE TEXT  */}
+			{/*========= ACCORDING SECTION ========== */}
+
+		
+
+			{/*========= WHY SHOULD STUDY ONLINE TEXT   =========== */}
 
 			<div id="Introduction" className=" text-center">
 				<div>
