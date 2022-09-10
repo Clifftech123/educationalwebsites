@@ -35,7 +35,7 @@ const Programing = () => {
 			<div className=" p-30 py-20 sm:w-full grid grid-cols-1 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-3 ">
 				{/* W3SCHOOL */}
 				<div className="p-10">
-					<div className="max-w-sm rounded overflow-hidden shadow-sm border hover:shadow-lg ">
+					<div className="c rounded overflow-hidden shadow-sm border hover:shadow-lg ">
 						<img
 							className="w-full  2xl:object-cover 2xl:object-center sm:w-full sm:object-cover sm:object-center"
 							src={W3school}
