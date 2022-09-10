@@ -1,35 +1,57 @@
 import React from 'react'
+import cardIm1 from "./IMAGES/Jobs/jobCard1.png";
+import cardIm2 from "./IMAGES/Jobs/JobCard2.png";
+import CardImg3 from "./IMAGES/Jobs/jobCard3.png";
+import cardImg4 from "./IMAGES/Jobs/jobCard4.png";
+import cardImg5 from "./IMAGES/Jobs/jobCard5.png";
+import cardImg6 from  "./IMAGES/Jobs/jobCard6.png";
+import cardIm7 from "./IMAGES/Jobs/jobCard7.png";
+import cardIm8 from "./IMAGES/Jobs/jobCard8.png"
+import cardIm9 from "./IMAGES/Jobs/jobCard9.png"
+
+
+
+// WEBSITE  LINKS 
+const Careerbuilder="https://www.careerbuilder.com/";
+const Indeed ="https://www.indeed.jobs/";
+const Job  = "https://job.com/";
+const linkedin = "https://gh.linkedin.com/jobs";
+const theladders = "https://www.theladders.com/";
+const glassdoor = "https://www.glassdoor.com/index.htm";
+const Getwork = "https://getwork.com/";
+const  Dice  ="https://www.dice.com/";
+const Google = "https://careers.google.com/jobs/results/";
+
+
+
 
 const Marketing =() => {
   return (
-	<>
+		<>
 			<div className=" p-30 py-20 sm:w-full grid grid-cols-1 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-3 ">
-				{/* coursera */}
+				{/* CareerBuilder*/}
 				<div className="p-10">
 					<div className="max-w-sm rounded overflow-hidden shadow-sm border hover:shadow-lg ">
 						<img
 							className="w-full  2xl:object-cover 2xl:object-center sm:w-full sm:object-cover sm:object-center"
-							src={'/'}
-							alt="coursera "
+							src={cardIm1}
+							alt="CareerBuilder "
 						/>
 						<div className="px-6 py-4">
 							<div className="font-bold text-xl mb-2  text-Footer_bg ">
-								Coursera
+								CareerBuilder
 							</div>
-							<p className="text-gray-700 text-base  ">
-								Coursera is a free learning site that offers MOOCs courses from
-								well-known universities. All Coursera courses contain
-								pre-recorded video lectures that you can watch when it is
-								convenient for you. Coursera has programs together with
-								universities that allow you to get a master degree or
-								specializations. You can explore various college courses without
-								any hassle.
+							<p className="text-gray-700 text-base    ">
+								CareerBuilder is an employment website founded in 1995 with
+								offices in the United States, Canada, Europe, and Asia. In 2008,
+								it had the largest market share among online employment websites
+								in the United States, where it was founded. CareerBuilder.
 							</p>
 						</div>
 						<div className="px-6 pt-4 pb-2 ">
 							<span>
-								<button className=" inline-block  w-full text-center last: bg-G_Purple  px-3 py-1 rounded-md text-md text-md font-semibold text-white mr-2 mb-2 ">
-									<a href={'/'} target={"_blank"} rel="noreferrer">
+								<button className=" inline-block  w-full text-center last: bg-blue-900  px-3 py-1 rounded-md text-md text-md font-semibold text-white mr-2 mb-2 ">
+									<a href={Careerbuilder} target={"_blank"} rel="noreferrer">
 										Visit Site
 									</a>
 								</button>
@@ -38,32 +60,30 @@ const Marketing =() => {
 					</div>
 				</div>
 
-				{/*    linkedin Learning */}
+				{/*   Indeed  */}
 				<div className="p-10">
 					<div className="max-w-sm rounded overflow-hidden hover:shadow-lg shadow-sm border">
 						<img
 							className="w-full  2xl:object-cover 2xl:object-center sm:w-full sm:object-cover sm:object-center"
-							src={'/'}
-							alt="FreeCodeCamp"
+							src={cardIm2}
+							alt="Indeed"
 						/>
 						<div className="px-6 py-4">
 							<div className="font-bold text-xl mb-2   text-Footer_bg ">
-								LinkedIn Learning
+								Indeed
 							</div>
 							<p className="text-gray-700 text-base">
-								LinkedIn Learning is a website that offers video courses that
-								are taught by experts. You can use this website to access up to
-								15,000 courses in more than seven languages available both for
-								free and with a subscription. LinkedIn free courses give you a
-								chance to learn from industry experts without spending a dime.
-								These LinkedIn training courses are perfect for beginners,
-								intermediate learners, and experts.
+								Indeed is an American worldwide employment website for job
+								listings launched in November 2004. It is a subsidiary of
+								Japan's Recruit Co. Ltd. and is co-headquartered in Austin,
+								Texas, and Stamford, Connecticut, with additional offices around
+								the world.
 							</p>
 						</div>
 						<div className="px-6 pt-4 pb-2">
 							<span>
-								<button className=" inline-block  text-center w-full bg-G_Purple  px-3 py-1 rounded-md text-md text-md font-semibold text-white mr-2 mb-2 ">
-									<a href={'/'} target={"_blank"} rel="noreferrer">
+								<button className=" inline-block  text-center w-full bg-blue-900  px-3 py-1 rounded-md text-md text-md font-semibold text-white mr-2 mb-2 ">
+									<a href={Indeed} target={"_blank"} rel="noreferrer">
 										Visit Site
 									</a>
 								</button>
@@ -72,32 +92,29 @@ const Marketing =() => {
 					</div>
 				</div>
 
-				{/* skillshare  */}
+				{/* Job  */}
 				<div className="p-10">
 					<div className="max-w-sm rounded hover:shadow-lg overflow-hidden  shadow-sm border">
 						<img
 							className="w-full  2xl:object-cover 2xl:object-center sm:w-full sm:object-cover sm:object-center"
-							src={'/'}
-							alt="Udemy"
+							src={CardImg3}
+							alt="job"
 						/>
 						<div className="px-6 py-4">
 							<div className="font-bold text-xl mb-2   text-Footer_bg ">
-								skillshare
+								Job
 							</div>
 							<p className="text-gray-700 text-base">
-								Skillshare is an online platform that focused on education. It
-								includes numerous topics related to graphics design, data
-								science, e-commerce, analytics, etc. This website helps you to
-								find classes that are designed for real life. The classes in
-								Skillshare are taught by real creators. You can join the courses
-								to learn from any device. It helps you to achieve your business
-								growth without any hassle.
+								Job portals, or job boards, are sites where you can advertise
+								jobs and search for resumes. They are an integral part of almost
+								every hiring process and using them effectively will translate
+								into qualified candidates for relatively low costs.
 							</p>
 						</div>
 						<div className="px-6 pt-4 pb-2 md:space-2">
 							<span>
-								<button className=" inline-block text-center w-full  bg-G_Purple px-3 py-1 rounded-md text-md font-semibold text-white mr-2 mb-2 ">
-									<a href={'/'} target={"_blank"} rel="noreferrer">
+								<button className=" inline-block text-center w-full  bg-blue-900 px-3 py-1 rounded-md text-md font-semibold text-white mr-2 mb-2 ">
+									<a href={Job} target={"_blank"} rel="noreferrer">
 										Visit Site
 									</a>
 								</button>
@@ -108,32 +125,29 @@ const Marketing =() => {
 				{/*------ END OF THE FIRST ROW-----  */}
 
 				{/* -----------=============== SECOND ROW=========== ============== */}
-				{/* Alison */}
+				{/* linkedin */}
 				<div className="p-10">
 					<div className="max-w-sm rounded overflow-hidden hover:shadow-lg shadow-sm border">
 						<img
 							className="w-full  2xl:object-cover 2xl:object-center sm:w-full sm:object-cover sm:object-center"
-							src={'/'}
-							alt=" Alison"
+							src={cardImg4}
+							alt=" linkedin"
 						/>
 						<div className="px-6 py-4">
 							<div className="font-bold text-xl mb-2  text-Footer_bg ">
-								Alison
+								linkedin
 							</div>
 							<p className="text-gray-700 text-base ">
-								Alison is a free online learning site that provides that offers
-								certification on completing the course. The subjects this site
-								offers are business, technology, health, and more. Alison helps
-								you to study, learn, and certify through online training. It
-								provides various courses related to specific languages like
-								English, Spanish, German, French, and Arabic. The site enables
-								you to choose three types of courses certificate courses.
+								inkedIn is an American business and employment-oriented online
+								service that operates via websites and mobile apps. Launched on
+								May 5, 2003 the platform is primarily used for professional
+								networking and career development, and allows job seekers.
 							</p>
 						</div>
 						<div className="px-6 pt-4 pb-2 md:space-2">
 							<span>
-								<button className=" inline-block text-center w-full bg-G_Purple  rounded-md px-3 py-1 text-md font-semibold text-white mr-2 mb-2 ">
-									<a href={'/'} target={"_blank"} rel="noreferrer">
+								<button className=" inline-block text-center w-full bg-blue-900  rounded-md px-3 py-1 text-md font-semibold text-white mr-2 mb-2 ">
+									<a href={linkedin} target={"_blank"} rel="noreferrer">
 										Visit Site
 									</a>
 								</button>
@@ -142,33 +156,29 @@ const Marketing =() => {
 					</div>
 				</div>
 
-				{/*  khanacademy */}
+				{/*  theladders */}
 				<div className="p-10 ">
 					<div className="max-w-sm rounded hover:shadow-lg overflow-hidden shadow-sm border">
 						<img
 							className="w-full  2xl:object-cover 2xl:object-center sm:w-full sm:object-cover sm:object-center"
-							src={'/'}
+							src={cardImg5}
 							alt="Khan Academy "
 						/>
 						<div className="px-6 py-4">
 							<div className="font-bold text-xl mb-2  text-Footer_bg ">
-								Khan Academy
+								theladders
 							</div>
 							<p className="text-gray-700 text-base">
-								Khan Academy is a study website. It offers in-depth subjects.
-								This site is useful to match your learning goals. You choose
-								this site to personalize your learning experience.This free
-								platform can be used for learners and teachers. It includes lots
-								of learning exercises. The resources of this site are available
-								online as well as the app. The content of Khan Academy is
-								available in English, French, German, Italian, Japanese, and
-								more.
+								Ladders is dedicated to bringing you in-depth advice across
+								industries and covers all aspects of our quickly evolving
+								workplace. Everything the modern professional needs to know is
+								available at a click and new articles appear daily.
 							</p>
 						</div>
 						<div className="px-6 pt-4 pb-2 md:space-2">
 							<span>
-								<button className=" inline-block  text-center w-full   bg-G_Purple   rounded-md px-3 py-1 text-md font-semibold text-white mr-2 mb-2 ">
-									<a href={'/'} target={"_blank"} rel="noreferrer">
+								<button className=" inline-block  text-center w-full   bg-blue-900  rounded-md px-3 py-1 text-md font-semibold text-white mr-2 mb-2 ">
+									<a href={theladders} target={"_blank"} rel="noreferrer">
 										Visit Site
 									</a>
 								</button>
@@ -177,33 +187,30 @@ const Marketing =() => {
 					</div>
 				</div>
 
-				{/* 	Academic Earth*/}
+				{/* glassdoor*/}
 				<div className="p-10">
 					<div className="max-w-sm rounded hover:shadow-lg overflow-hidden  shadow-sm border">
 						<img
 							className="w-full  2xl:object-cover 2xl:object-center sm:w-full sm:object-cover sm:object-center"
-							src={'/'}
-							alt="Academic Earth"
+							src={cardImg6}
+							alt=" glassdoor"
 						/>
 						<div className="px-6 py-4">
 							<div className="font-bold text-xl mb-2   text-Footer_bg ">
-								Academic Earth
+								Glassdoor
 							</div>
 							<p className="text-gray-700 text-base">
-								Academic Earth is a top online learning site that offers many
-								courses from various schools. In this website, you can explore
-								numerous topics. It enables you to search the course outline by
-								specific subjects. The subjects of Academic Earth are design in
-								a way that suits your personal and professional needs. The
-								platform has varieties of courses related to computer and IT,
-								business, education, and health. These courses can be learned
-								for free.
+								Glassdoor is an American website where current and former
+								employees anonymously review companies.[1] Headquartered in San
+								Francisco, California, it has additional offices in Chicago,
+								Dublin, London, and São Paulo. Glassdoor also allows its users
+								to anonymously.
 							</p>
 						</div>
 						<div className="px-6 pt-4 pb-2 md:space-2">
 							<span>
-								<button className=" inline-block text-center w-full   bg-G_Purple rounded-md  px-3 py-1 text-md font-semibold text-white mr-2 mb-2 ">
-									<a href={'/'} target={"_blank"} rel="noreferrer">
+								<button className=" inline-block text-center w-full   bg-blue-900 rounded-md  px-3 py-1 text-md font-semibold text-white mr-2 mb-2 ">
+									<a href={glassdoor} target={"_blank"} rel="noreferrer">
 										Visit Site
 									</a>
 								</button>
@@ -215,33 +222,29 @@ const Marketing =() => {
 
 				{/* -----------=============== Third ROW=========== ============== */}
 
-				{/* Stanford Online  */}
+				{/*  Getwork  */}
 				<div className="p-10">
 					<div className="max-w-sm rounded  hover:shadow-lg overflow-hidden  shadow-sm border">
 						<img
 							className="w-full  2xl:object-cover 2xl:object-center sm:w-full sm:object-cover sm:object-center"
-							src={'/'}
-							alt="Stanford Online"
+							src={cardIm7}
+							alt="Getwork"
 						/>
 						<div className="px-6 py-4">
 							<div className="font-bold text-xl mb-2   text-Footer_bg ">
-								Stanford Online
+								Getwork
 							</div>
 							<p className="text-gray-700 text-base">
-								Stanford Online is a study site that provides learning
-								opportunities via free online degrees, online courses,
-								e-learning, and more. You can learn a wide range of subjects
-								including, computer science, AI, health and medicine, arts, and
-								data science. The platform offers certification after completing
-								the program. You can enroll in courses to learn new skills, get
-								a job, and to create a new future. It has a collection of free
-								e-books, webinars, videos and etc.
+								We saw huge potential in focusing on company websites as the
+								best and cleanest source of jobs, so we formed LinkUp, a job
+								site with millions of verified listings sourced directly from
+								company career sites.
 							</p>
 						</div>
 						<div className="px-6 pt-4 pb-2 md:space-2">
 							<span>
-								<button className=" inline-block text-center w-full bg-G_Purple  rounded-md px-3 py-1 text-md font-semibold text-white mr-2 mb-2 ">
-									<a href={'/'} target={"_blank"} rel="noreferrer">
+								<button className=" inline-block text-center w-full bg-blue-900  rounded-md px-3 py-1 text-md font-semibold text-white mr-2 mb-2 ">
+									<a href={Getwork} target={"_blank"} rel="noreferrer">
 										Visit Site
 									</a>
 								</button>
@@ -249,33 +252,29 @@ const Marketing =() => {
 						</div>
 					</div>
 				</div>
-				{/* 	Harvard Extension */}
+				{/* 	Dice */}
 				<div className="p-10">
 					<div className="max-w-sm rounded overflow-hidden hover:shadow-lg shadow-sm border">
 						<img
 							className="w-full  2xl:object-cover 2xl:object-center sm:w-full sm:object-cover sm:object-center"
-							src={'/'}
-							alt="Harvard Extension"
+							src={cardIm8}
+							alt="Dice"
 						/>
 						<div className="px-6 py-6">
 							<div className="font-bold text-xl mb-2  text-Footer_bg ">
-								Harvard Extension
+								Dice
 							</div>
 							<p className="text-gray-700 text-base ">
-								Harvard Extension is the best online learning site that provides
-								free online education courses from Harvard University. It
-								enables students to search for courses by professional
-								certificate. Harvard Extension offers various subject areas like
-								art and design, business, data science, health, and much more.
-								It allows you to search for various subjects using the start
-								date and duration. Courses of this place have three difficulty
-								levels introductory, and intermediate.
+								Dice.com is a career website based in New York City with primary
+								sales and development operations in Urbandale, Iowa and Denver.
+								It serves information technology and engineering professionals,
+								as well.
 							</p>
 						</div>
 						<div className="px-6 pt-4 pb-2 md:space-2">
 							<span>
-								<button className=" inline-block text-center w-full  bg-G_Purple rounded-md px-3 py-1 text-md font-semibold text-white mr-2 mb-2 ">
-									<a href={'/'} target={"_blank"} rel="noreferrer">
+								<button className=" inline-block text-center w-full  bg-blue-900 rounded-md px-3 py-1 text-md font-semibold text-white mr-2 mb-2 ">
+									<a href={Dice} target={"_blank"} rel="noreferrer">
 										Visit Site
 									</a>
 								</button>
@@ -283,34 +282,30 @@ const Marketing =() => {
 						</div>
 					</div>
 				</div>
-				{/* Open Yale Courses */}
+				{/* Google */}
 				<div className="p-10">
 					<div className="max-w-sm rounded overflow-hidden hover:shadow-lg shadow-sm border">
 						<img
 							className="w-full  2xl:object-cover 2xl:object-center sm:w-full sm:object-cover sm:object-center"
-							src={'/'}
-							alt="Open Yale Courses"
+							src={cardIm9}
+							alt="Goggle"
 						/>
 						<div className="px-6 py-6">
 							<div className="font-bold text-xl mb-2  text-Footer_bg ">
-								{" "}
-								Open Yale Courses
+								Google careers
 							</div>
 							<p className="text-gray-700 text-base ">
-								Open Yale Courses is the best online learning site website that
-								offers free and open access to introductory courses that are
-								taught by teachers and scholars. Lectures available on this
-								website are recorded in Yale College classrooms. This website
-								offers learning through audio, text transcript, and video media
-								format. You can access these materials without any registration.
-								Open Yale Courses provides courses like chemistry, economics,
-								history.
+								vWhether you're preparing for your first internship or pivoting
+								to your next opportunity, Google Careers OnAir will help you
+								connect, learn, and grow. Register for upcoming livestreams,
+								watch previously-aired events.
+								
 							</p>
 						</div>
 						<div className="px-6 pt-4 pb-2 md:space-2">
 							<span>
-								<button className=" inline-block text-center w-full   bg-G_Purple  rounded-md px-3 py-1 text-md font-semibold text-white mr-2 mb-2 ">
-									<a href={'/'} target={"_blank"} rel="noreferrer">
+								<button className=" inline-block text-center w-full   bg-blue-900  rounded-md px-3 py-1 text-md font-semibold text-white mr-2 mb-2 ">
+									<a href={Google} target={"_blank"} rel="noreferrer">
 										Visit Site
 									</a>
 								</button>
@@ -319,117 +314,9 @@ const Marketing =() => {
 					</div>
 				</div>
 				{/* -----END OF THE THE THIRD ROW-----  */}
-
-				{/* -----------=============== Fourth  ROW=========== ============== */}
-				{/* University of the People */}
-				<div className="p-10">
-					<div className="max-w-sm rounded overflow-hidden hover:shadow-lg shadow-sm border">
-						<img
-							className="w-full  2xl:object-cover 2xl:object-center sm:w-full sm:object-cover sm:object-center"
-							src={'/'}
-							alt="University of the People"
-						/>
-						<div className="px-6 py-6">
-							<div className="font-bold text-xl mb-2  text-Footer_bg ">
-								University of the People
-							</div>
-							<p className="text-gray-700 text-base ">
-								University of the People is an educational service provider. It
-								offers varieties of degree programs, including business
-								administration, health, and computer science. This place
-								provides students the necessary skill sets that are important to
-								thrive in taking academic degrees. University of the People site
-								does not charge anyone for enrolling in any course. It enables
-								you to access all the books and other course materials without
-								any hassle. Students who are graduate and undergraduate both.
-							</p>
-						</div>
-						<div className="px-6 pt-4 pb-2 md:space-2">
-							<span>
-								<button className=" inline-block text-center w-full   bg-G_Purple  rounded-md px-3 py-1 text-md font-semibold text-white mr-2 mb-2 ">
-									<a href={'/'} target={"_blank"} rel="noreferrer">
-										Visit Site
-									</a>
-								</button>
-							</span>
-						</div>
-					</div>
-				</div>
-
-				{/* studytonight */}
-				<div className="p-10">
-					<div className="max-w-sm rounded overflow-hidden hover:shadow-lg shadow-sm border">
-						<img
-							className="w-full  2xl:object-cover 2xl:object-center sm:w-full sm:object-cover sm:object-center"
-							src={'/'}
-							alt=" Oxford Podcasts"
-						/>
-						<div className="px-6 py-6">
-							<div className="font-bold text-xl mb-2  text-Footer_bg ">
-								University of Oxford Podcasts
-							</div>
-							<p className="text-gray-700 text-base ">
-								University of Oxford Podcasts a place where you can find public
-								lectures, interviews, teaching materials, and more. The content
-								on this is added on a regular basis regularly. You can use
-								lectures and a series of talks in the document, audio, and video
-								format. This site has over 633 series. The curriculum is
-								available for biology, philosophy, depression, etc. You can view
-								your interested course by categories like social sciences
-								division, mathematical, physical and life sciences, medical
-								sciences.
-							</p>
-						</div>
-						<div className="px-6 pt-4 pb-2 md:space-2">
-							<span>
-								<button className=" inline-block text-center w-full bg-G_Purple rounded-md px-3 py-1 text-md font-semibold text-white mr-2 mb-2 ">
-									<a href={'/'} target={"_blank"} rel="noreferrer">
-										Visit Site
-									</a>
-								</button>
-							</span>
-						</div>
-					</div>
-				</div>
-
-				{/* theodinproject */}
-				<div className="p-10">
-					<div className="max-w-sm rounded overflow-hidden hover:shadow-lg shadow-sm border">
-						<img
-							className="w-full  2xl:object-cover 2xl:object-center sm:w-full sm:object-cover sm:object-center"
-							src={'/'}
-							alt="codecademy"
-						/>
-						<div className="px-6 py-6">
-							<div className="font-bold text-xl mb-2  text-Footer_bg ">
-								Memrise
-							</div>
-							<p className="text-gray-700 text-base ">
-								Memrise is educational websites for adults that offers a
-								personalized learning experience. The website can be accessed in
-								various languages, including English, Arabic, American, and
-								Dutch. This place has categories like art, literature,
-								mathematics, science, history, and more. Memrise can be
-								accessible from iOS and Android devices. The website includes
-								challenges that increase your learning experience. You can
-								easily signup into this site in order to access the course and
-								materials.
-							</p>
-						</div>
-						<div className="px-6 pt-4 pb-2 md:space-2">
-							<span>
-								<button className=" inline-block text-center w-full bg-G_Purple   rounded-md px-3 py-1 text-md font-semibold text-white mr-2 mb-2 ">
-									<a href={'/'} target={"_blank"} rel="noreferrer">
-										Visit Site
-									</a>
-								</button>
-							</span>
-						</div>
-					</div>
-				</div>
 			</div>
 		</>
-  )
+	);
 }
 
 export default Marketing;
