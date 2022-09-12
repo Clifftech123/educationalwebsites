@@ -16,7 +16,7 @@ const NavBarComponent = () => {
 		return {
 			fontWeight: isActive ? "  bold" : "normal ",
 			textDecoration: isActive ? "underline" : " none",
-			color: isActive ? " yellow " : " whiteSmoke",
+			color: isActive ? "#ffb300 " : " whiteSmoke",
 		};
 		
 
