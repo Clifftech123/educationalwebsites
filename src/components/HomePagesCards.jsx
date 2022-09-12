@@ -29,7 +29,7 @@ const HomePagesCards = () => {
 						alt="Programing"
 					/>
 					<div className="px-6 py-4  border-b">
-						<div className=" font-Poppins  text-G_Purple text-3xl text-center mb-2">
+						<div className=" font-Poppins  text-Footer_bg text-3xl text-center mb-2">
 							Programing
 						</div>
 						<p className="text-gray-700 text-base mb-5">
@@ -40,7 +40,7 @@ const HomePagesCards = () => {
 							you'll also need to know some coding languages to apply your
 							knowledge.
 						</p>
-						<small className="text-G_Purple font-medium ">
+						<small className="text-Footer_bg font-medium ">
 							{" "}
 							Click Button below to view all the variable website to learn
 							marketing{" "}
@@ -73,7 +73,7 @@ const HomePagesCards = () => {
 						alt="Sut"
 					/>
 					<div className="px-6 py-4 border-b">
-						<div className=" font-Poppins   text-G_Purple text-3xl text-center   mb-2">
+						<div className=" font-Poppins   text-Footer_bg text-3xl text-center   mb-2">
 							Student
 						</div>
 						<p className="text-gray-700 text-base mb-5">
@@ -84,7 +84,7 @@ const HomePagesCards = () => {
 							formed around the availability of classes.Online Study is the new
 							trane
 						</p>
-						<small className="text-G_Purple font-medium ">
+						<small className="text-Footer_bg font-medium ">
 							{" "}
 							Click Button below to see website available for student{" "}
 						</small>
@@ -117,7 +117,7 @@ const HomePagesCards = () => {
 						alt="Forest"
 					/>
 					<div className="px-6 py-4  border-b">
-						<div className=" font-Poppins text-G_Purple text-3xl text-center   mb-2">
+						<div className=" font-Poppins text-Footer_bg text-3xl text-center   mb-2">
 							Jobs
 						</div>
 						<p className="text-gray-700 text-base mb-5">
@@ -129,7 +129,7 @@ const HomePagesCards = () => {
 							range.
 						</p>
 
-						<small className="text-G_Purple font-medium ">
+						<small className="text-Footer_bg font-medium ">
 							{" "}
 							Click Button below to view all the variable website to learn
 							marketing{" "}
