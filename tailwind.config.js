@@ -7,7 +7,7 @@ module.exports = {
 				Navbar_bg: "#041C32",
 				Navbar_text_color: "#ECB365",
 				G_Purple: "#aa076b",
-				Footer_bg: "#61045f",
+				Footer_bg: "#041248;",
 			},
 			fontFamily: {
 				Poppins: ["Poppins", "sans-serif"],
