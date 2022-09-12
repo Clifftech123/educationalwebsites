@@ -1,4 +1,5 @@
 import React from 'react'
+import SutdentIntro from "./IMAGES/StudentPage.svg"
 import card1 from "./IMAGES/student/card1.png";
 import card2 from "./IMAGES/student/card2.png";
 import card3 from "./IMAGES/student/card3.png";
@@ -29,6 +30,42 @@ const memrise ="https://www.memrise.com/"
 const  Student = () => {
   return (
 		<>
+
+		{/* PAGE INTRODUCTION  */}
+			<div id="Programing" className="Programing  text-center">
+				<div>
+					<div className=" bg-white shadow-sm   grid lg:grid-cols-2 2xl:grid-cols-5">
+						<div className="px-8 py-12 max-w-md mx-auto sm:max-w-xl lg:px-12 lg:py-24 lg:max-w-full xl:mr-0 2xl:col-span-2">
+							<div className="xl:max-w-lg ">
+								<div className="aspect-w-16 aspect-h-9 lg:mt-32">
+									<img
+										className=" w-full mt-10 object-cover object-center 2xl:w-full 2zl:mt-10 2xl:object-cover 2xl:object-center   sm:mt-8 sm:h-64 sm:w-full sm:object-cover sm:object-center lg:hidden"
+										src={SutdentIntro}
+										alt="SVG img "
+									/>
+								</div>
+								<h1 className="mt-6 text-2xl font-bold text-gray-900 sm:mt-8 sm:text-4xl lg:text-3xl xl:text-4xl">
+									<span className="text-Footer_bg">
+										Make you journey Simple
+									</span>
+								</h1>
+								<p className=" text-lg  mt-2 text-gray-600 sm:mt-4 sm:text-xl">
+								Over many years, education has been changing at every level - from preschool to graduate school - and digital learning methods have become increasingly common with the development of new technologies every day. 
+								</p>
+								<div className="mt-4 sm:mt-6"></div>
+							</div>
+						</div>
+						<div className="hidden relative md:mt-10 lg:block 2xl:col-span-3">
+							<img
+								className="absolute inset-0 w-full h-full object-cover object-center"
+								src={SutdentIntro}
+								alt="  SVG img for the  "
+							/>
+						</div>
+					</div>
+				</div>
+			</div>
+			{/* END OF THE INTRODUCTION  */}
 			<div className=" p-30 py-20 sm:w-full grid grid-cols-1 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-3 ">
 				{/* coursera */}
 				<div className="p-10">
@@ -54,7 +91,7 @@ const  Student = () => {
 						</div>
 						<div className="px-6 pt-4 pb-2 ">
 							<span>
-								<button className=" inline-block  w-full text-center last: bg-blue-900  px-3 py-1 rounded-md text-md text-md font-semibold text-white mr-2 mb-2 ">
+								<button className=" inline-block  w-full text-center last: bg-Footer_bg  px-3 py-1 rounded-md text-md text-md font-semibold text-white mr-2 mb-2 ">
 									<a href={Coursera} target={"_blank"} rel="noreferrer">
 										Visit Site
 									</a>
@@ -88,7 +125,7 @@ const  Student = () => {
 						</div>
 						<div className="px-6 pt-4 pb-2">
 							<span>
-								<button className=" inline-block  text-center w-full bg-blue-900   px-3 py-1 rounded-md text-md text-md font-semibold text-white mr-2 mb-2 ">
+								<button className=" inline-block  text-center w-full bg-Footer_bg   px-3 py-1 rounded-md text-md text-md font-semibold text-white mr-2 mb-2 ">
 									<a href={linkedin} target={"_blank"} rel="noreferrer">
 										Visit Site
 									</a>
@@ -122,7 +159,7 @@ const  Student = () => {
 						</div>
 						<div className="px-6 pt-4 pb-2 md:space-2">
 							<span>
-								<button className=" inline-block text-center w-full bg-blue-900  px-3 py-1 rounded-md text-md font-semibold text-white mr-2 mb-2 ">
+								<button className=" inline-block text-center w-full bg-Footer_bg  px-3 py-1 rounded-md text-md font-semibold text-white mr-2 mb-2 ">
 									<a href={skillshare} target={"_blank"} rel="noreferrer">
 										Visit Site
 									</a>
@@ -158,7 +195,7 @@ const  Student = () => {
 						</div>
 						<div className="px-6 pt-4 pb-2 md:space-2">
 							<span>
-								<button className=" inline-block text-center w-full bg-blue-900  rounded-md px-3 py-1 text-md font-semibold text-white mr-2 mb-2 ">
+								<button className=" inline-block text-center w-full bg-Footer_bg  rounded-md px-3 py-1 text-md font-semibold text-white mr-2 mb-2 ">
 									<a href={Alison} target={"_blank"} rel="noreferrer">
 										Visit Site
 									</a>
@@ -193,7 +230,7 @@ const  Student = () => {
 						</div>
 						<div className="px-6 pt-4 pb-2 md:space-2">
 							<span>
-								<button className=" inline-block  text-center w-full  bg-blue-900  rounded-md px-3 py-1 text-md font-semibold text-white mr-2 mb-2 ">
+								<button className=" inline-block  text-center w-full  bg-Footer_bg  rounded-md px-3 py-1 text-md font-semibold text-white mr-2 mb-2 ">
 									<a href={khanacademy} target={"_blank"} rel="noreferrer">
 										Visit Site
 									</a>
@@ -228,7 +265,7 @@ const  Student = () => {
 						</div>
 						<div className="px-6 pt-4 pb-2 md:space-2">
 							<span>
-								<button className=" inline-block text-center w-full  bg-blue-900  rounded-md  px-3 py-1 text-md font-semibold text-white mr-2 mb-2 ">
+								<button className=" inline-block text-center w-full  bg-Footer_bg  rounded-md  px-3 py-1 text-md font-semibold text-white mr-2 mb-2 ">
 									<a href={academicearth} target={"_blank"} rel="noreferrer">
 										Visit Site
 									</a>
@@ -266,7 +303,7 @@ const  Student = () => {
 						</div>
 						<div className="px-6 pt-4 pb-2 md:space-2">
 							<span>
-								<button className=" inline-block text-center w-full bg-blue-900  rounded-md px-3 py-1 text-md font-semibold text-white mr-2 mb-2 ">
+								<button className=" inline-block text-center w-full bg-Footer_bg  rounded-md px-3 py-1 text-md font-semibold text-white mr-2 mb-2 ">
 									<a href={stanford} target={"_blank"} rel="noreferrer">
 										Visit Site
 									</a>
@@ -300,7 +337,7 @@ const  Student = () => {
 						</div>
 						<div className="px-6 pt-4 pb-2 md:space-2">
 							<span>
-								<button className=" inline-block text-center w-full  bg-blue-900  rounded-md px-3 py-1 text-md font-semibold text-white mr-2 mb-2 ">
+								<button className=" inline-block text-center w-full  bg-Footer_bg  rounded-md px-3 py-1 text-md font-semibold text-white mr-2 mb-2 ">
 									<a href={harvard} target={"_blank"} rel="noreferrer">
 										Visit Site
 									</a>
@@ -335,7 +372,7 @@ const  Student = () => {
 						</div>
 						<div className="px-6 pt-4 pb-2 md:space-2">
 							<span>
-								<button className=" inline-block text-center w-full  bg-blue-900  rounded-md px-3 py-1 text-md font-semibold text-white mr-2 mb-2 ">
+								<button className=" inline-block text-center w-full  bg-Footer_bg  rounded-md px-3 py-1 text-md font-semibold text-white mr-2 mb-2 ">
 									<a href={Yale} target={"_blank"} rel="noreferrer">
 										Visit Site
 									</a>
@@ -373,7 +410,7 @@ const  Student = () => {
 						</div>
 						<div className="px-6 pt-4 pb-2 md:space-2">
 							<span>
-								<button className=" inline-block text-center w-full  bg-blue-900  rounded-md px-3 py-1 text-md font-semibold text-white mr-2 mb-2 ">
+								<button className=" inline-block text-center w-full  bg-Footer_bg  rounded-md px-3 py-1 text-md font-semibold text-white mr-2 mb-2 ">
 									<a href={uopeople} target={"_blank"} rel="noreferrer">
 										Visit Site
 									</a>
@@ -409,7 +446,7 @@ const  Student = () => {
 						</div>
 						<div className="px-6 pt-4 pb-2 md:space-2">
 							<span>
-								<button className=" inline-block text-center w-full bg-blue-900 rounded-md px-3 py-1 text-md font-semibold text-white mr-2 mb-2 ">
+								<button className=" inline-block text-center w-full bg-Footer_bg rounded-md px-3 py-1 text-md font-semibold text-white mr-2 mb-2 ">
 									<a href={podcasts} target={"_blank"} rel="noreferrer">
 										Visit Site
 									</a>
@@ -445,7 +482,7 @@ const  Student = () => {
 						</div>
 						<div className="px-6 pt-4 pb-2 md:space-2">
 							<span>
-								<button className=" inline-block text-center w-full bg-blue-900   rounded-md px-3 py-1 text-md font-semibold text-white mr-2 mb-2 ">
+								<button className=" inline-block text-center w-full bg-Footer_bg   rounded-md px-3 py-1 text-md font-semibold text-white mr-2 mb-2 ">
 									<a href={memrise} target={"_blank"} rel="noreferrer">
 										Visit Site
 									</a>
